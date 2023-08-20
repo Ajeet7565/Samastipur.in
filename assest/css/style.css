@@ -260,13 +260,31 @@ div.text-center {
 }
 
 /* Our Popular Classes End */
-/* Choice Section Start */
-.choice{
-  color: #56225e;
-  margin-top: 28%;
+/* Our Contact us Section Start */
+.contactUs{
+  width: 100%;
+  height:450px;
+  background:url(../img/Choice.jpg) no-repeat top;
+  background-size: cover;
 }
-.choice-wrape{
-  font-weight: 600px;
-  background-color: #ee3131;
+.contactUs h2{
+  text-transform: capitalize;
+font-size: 48px;
+color:#56225e;
 }
-/* Choice Section End */
+.contactUs h2 span{
+  display: block;
+}
+.contactUs p{
+ font-weight: 400;
+  font-size: 15px;
+}
+.contactUs a{
+  font-size: 16px;
+  font-weight:600 ;
+}
+.contactUs a:hover{
+  background-color: #000;
+  transition: 0.5s all;
+}
+/* Our Contact us Section End */
