@@ -5,133 +5,77 @@
 }
 
 /* Custom color Start */
-
-.bg-danger2 {
-  background: #fd0100;
-}
-
-.bg-danger3 {
-  background-color: #ff002a;
-  ;
-}
-
-.bg-primary2 {
-  background-color: #110b77;
-}
-
-.text-primary2 {
-  color: #fff;
-}
-
-.menu-primary1 {
-  background-color: #663936;
-}
-
-.menu2-primary {
-  background-color: #573c2b;
-}
-
-.menu3-primary {
-  background-color: #1f94d7;
-}
-
-.bg-warning2 {
-  background-color: #ffc107;
-}
-
-
+.bg-danger2 {background: #fd0100;}
+.bg-danger3 {background-color: #ff002a;}
+.bg-primary2 {background-color: #110b77;}
+.text-primary2 {color: #fff;}
+.bg-primary3 {color: rgb(110, 110, 110);}
+.menu-primary1 {background-color: #663936;}
+.menu2-primary {background-color: #573c2b;}
+.menu3-primary {background-color: #1f94d7;}
+.bg-warning2 {background-color: #ffc107;}
+.bg-dark2{background-color: #232936;}
 /* Custom color ends*/
 
 
 
 /*Navbar Section Start*/
-
 .nav-link {
   padding: 30px 26px;
 }
 
 .nav-item:hover .nav-link {
   background-color: #fd0100;
-  color: #fff;
-}
-
-
+  color: #fff;}
 button.button:hover {
-  background-color: #110b77;
-}
-
-
-
+  background-color: #110b77;}
 div.Schoolname {
-  color: #656667;
-}
-
+  color: #656667;}
 div:hover.Schoolname {
   color: #fd0100;
-  opacity: 10;
-}
-
+  opacity: 10;}
 div.text-center {
   word-spacing: 8px;
-
 }
-
 @media(max-width:320px) {
   .Schoolname {
     display: none;
   }
 }
-
 /*Navbar Section End*/
 
 
 /*Dropdown Section Start*/
 .dropdown-item {
   padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-
-
+  padding-bottom: 10px;}
 .dropdown:hover .dropdown-menu {
   display: block;
   border: none;
   border-radius: 0px;
   padding: 5px;
   width: 250px;
-  padding: 0px;
-}
-
-
-
-.dropdown-item:focus,
+  padding: 0px;}
+  
+  .dropdown-item:focus,
 .dropdown-item:hover {
   background-color: #fd0100;
   color: #fff;
 }
-
-
-
-
 /*Dropdown Section End*/
 
-
 /*Sider Section Start*/
-
 .font {
   font-size: 60px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .carousel-caption {
   bottom: 25rem;
 }
-
 .carousel-item:first-child {
   animation: slideup 0.8s;
 }
-
 @keyframes slideup {
   0% {
     transform: translateY(350px);
@@ -141,21 +85,16 @@ div.text-center {
     transform: translateY(0);
   }
 }
-
 .carousel-item:nth-child(2) {
   animation: slidedown 0.9s;
 }
-
 .carousel-indicators {
   margin-bottom: 8rem;
 }
-
 .carousel-dark .carousel-indicators [data-bs-target] {
   width: 20px;
   height: 20px;
-  border-radius: 50%;
-  
-}
+  border-radius: 50%;}
 
 @keyframes slidedown {
   0% {
@@ -166,17 +105,13 @@ div.text-center {
     transform: translateY(350px);
   }
 }
-
-
 /*Sider Section End*/
-
 
 /*Feature Section Start*/
 .ourfeature {
   position: relative;
   margin-top: -50px;
 }
-
 .card-title {
   text-align: center;
   font-size: 24px;
@@ -185,81 +120,69 @@ div.text-center {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
-
 .featuretext {
   text-decoration: underline;
   text-align: center;
   color: #fff;
 }
-
 .card-text {
   text-align: center;
   color: #fff;
   line-height: 24px;
 }
-
 @media (min-width:992px) {
   .ourfeature {
     position: relative;
     top: -150px !important;
-
-
   }
 }
-
 /*Feature Section End*/
+
 /* Online Learning Section Start */
 .onlineleaning {
   font-size: 48px;
   font-family: 'Montserrat', sans-serif;
   margin-top: -60px;
 }
-
 .onlineleaning p {
   font-size: 14px;
   line-height: 26px;
   color: #52575e;
   font-weight: 500;
 }
-
 /* Online Learning Section End */
+
 /* Our Popular Classes Start */
 .title h1 {
   margin-top: -55%;
   font-size: 48px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 .title h3 {
   text-decoration: underline;
   margin-top: -20px;
   color: #ffc107;
 }
-
 .card-body h3 a {
   text-decoration: none;
   color: black;
 }
-
 .card-body .row p {
   text-decoration: underline;
   color: rgb(203, 202, 202);
 }
-
 @media (min-width: 992px) {
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33%;
   }
-
 }
-
-
 .container.row.card.card-body {
   height: 50px;
 }
-
 /* Our Popular Classes End */
+
+
 /* Our Contact us Section Start */
 .contactUs{
   width: 100%;
@@ -288,3 +211,122 @@ color:#56225e;
   transition: 0.5s all;
 }
 /* Our Contact us Section End */
+/* Oue Video Section Start */
+.videoclass h2{
+  font-size: 48px;
+  color:#56225e;
+}
+.video{
+  background:url(../img/video\ image.jpg) no-repeat top;  
+    background-size: cover;
+    padding: 200px 0;
+    border: 14px solid #fff;
+    box-shadow: 0 0 18px rgb(0 0 0 / 12%);
+}
+.playbtn a{
+  box-sizing:content-box;
+  display: inline-block;
+  width: 32px;
+  height: 44px;
+  background: #fff;
+  border-radius: 50px;
+  padding: 18px 20px 18px 28px;
+  position: relative;
+}
+/* Oue Video Section End */
+
+/* Our Gallery Section Start */
+.Gallery{
+  width: 100%;
+  height:500px;
+  background:url(../img/Gallery\ image.jpg) no-repeat top;
+  background-size:cover;
+}
+.Gallery h2{
+  color:#56225e;
+  font-size: 48px;
+  font-weight: 600px;
+}
+.Gallery p{
+  font-size: 18px;
+  color:#56225e;
+}
+ .Gallery a:hover{ 
+  background-color: #000;
+  transition: 0.5s all;
+}
+/* Our Gallery Section End */
+
+/* Our Enroll Section Start */
+.enroll{
+  background:url(../img/enroll.jpg);
+  width: 100%;
+  height: 450px;
+  padding: 100px;
+}
+.enroll h2{
+  font-size: 50px;
+  font-weight:bold;
+}
+.enroll p{
+  font-size: 17px;
+}
+.enroll h3 a{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+.enroll a:hover{
+  color: #ffb607;
+  transition: 0.3s all;
+}
+
+/* Our Enroll Section End */
+
+/* Our Teacher Section Start */
+.teacher h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #56225e;
+}
+/* Our Teacher Section End */
+
+/* Our Blog Section Start*/
+.blog{
+  background: #f8f8f8;
+  padding: 40px 0px;
+}
+.blog h2{
+font-size: 48px;
+font-weight: bold;
+font-family: 'Montserrat', sans-serif;
+}
+.blog h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.blog ul li{
+  list-style: none;
+}
+/* Our Blog Section End*/
+
+/* Our Footer Section Start */
+.text-white2{color:#bcc5d0;}
+footer ul li{
+  margin-bottom: 10px;
+list-style: none;
+
+}
+footer a {
+  text-decoration: none;
+  color:#bcc5d0 ;
+  font-weight: 400;
+}
+footer a:hover{
+  color: #f9c2a0;
+  transition-property: .3s all;
+}
+footer.Opening ul li{
+  border-bottom: 1px solid white;
+}
+/* Our Footer Section End */
