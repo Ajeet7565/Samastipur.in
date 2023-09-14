@@ -312,12 +312,26 @@ font-family: 'Montserrat', sans-serif;
 
 /* Our Footer Section Start */
 .text-white2{color:#bcc5d0;}
-footer ul li{
+footer .container{
+  height: 250px;
+  width: 100%;
+}
+footer   li{
   margin-bottom: 10px;
 list-style: none;
+line-height: 21px;
+margin-left: -20px;
 
 }
-footer a {
+footer .quick li :before {
+content: "\f0da"; 
+  font-weight: 600;
+  font-family: 'Font Awesome 5 Free';
+  padding-right: 10px;
+  color: #bcc5d0;
+  font-size: 14px;
+}
+footer  a {
   text-decoration: none;
   color:#bcc5d0 ;
   font-weight: 400;
@@ -326,7 +340,45 @@ footer a:hover{
   color: #f9c2a0;
   transition-property: .3s all;
 }
-footer.Opening ul li{
-  border-bottom: 1px solid white;
+footer .Opening  li{
+display: flex;
+justify-content: space-between;
+color:#bcc5d0 ;
+font-size: 14px;
+margin-left: -28px;
+line-height: 21px;
+border-bottom: 1px solid #bcc5d0 ;  
 }
+.text-white5{
+  color:#bcc5d0 ;
+}
+footer .facebook{
+  font-size: 20px;
+  padding: 10px 13px;
+  border-radius: 50px;
+  background-color: #3c599b;
+  border-color: #3c599b;
+}
+footer .twitter{
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 50px;
+  border-color: #1ea1f3;
+  background-color: #1ea1f3;
+}
+footer .instagram{
+  font-size: 20px;
+  padding: 11px 11px;
+  border-radius: 50px;
+  border-color: #cd2e80;
+  background-color: #cd2e80;
+}
+footer .youtube{
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 50px;
+  background-color: #fb000f;
+  border-color: #fb000f;
+}
+
 /* Our Footer Section End */
